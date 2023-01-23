@@ -1,0 +1,53 @@
+/* ayskan toxerov menq body talisenq guyner bayc ete uzum enq vor arajnahert lini meky uxaki guyni koxky dnum enq !important*/
+body {
+  color: red;
+}
+
+p {
+  color: #f0f;
+}
+
+ul > li {
+  color: #5d5d5d;
+}
+
+li {
+  color: red !important;
+}
+
+body ul li {
+  color: pink;
+}
+
+html body ul li {
+  color: green;
+}
+
+ul li a{
+  color: rgb(0,174,255);
+}
+body ul li a{
+  color: rgb(109,13,199);
+}
+html body ul li a{
+  color: rgb(142, 93, 187);
+}
+body span{
+  color: green;
+}
+body p span{
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
+.items{
+  color: green;
+}
+.item1{
+  color: blue;
+  font-size: 30px;
+}
+.item2{
+  color: blueviolet;
+  font-size: 20px;
+}

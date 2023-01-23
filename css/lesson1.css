@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+body {
+  font-family: Arial;
+}
+
+.someText {
+  color: #50B8C1;
+  font-size: 18px;
+  text-align: justify; /* center, justify,end,right,start */ /* texti dzevy toxeri chisht dzevy */
+  font-weight: bold; /* tarery hastacnum e  ka erku hat normal ev bold*/
+  /* font-family: 'Lacquer',sans-serif;
+  font-family: 'Akronim',cursive;
+  font-family: 'Nunito Sans',sans-serif;  tareri het ashxatelu dzev default y arial */
+  font-family: monospace;
+  letter-spacing: 2px; /* tarery iraric hervacnum e */
+  line-height: 18px; /* toxery iraric barcracnum cacikacnum e default 18 px*/
+  text-transform: capitalize; /*(uppercase) texti bolor tarery darcnum e mecatar ( lowercase y darcnum e poqratar) ,(capitalize bareri sksvox araji tarery darcnum e mecatar) */
+  text-shadow:1px 1px 2px rgb(28,97,104); /* texti tarerin talis e shoxk*/
+  font-style: italic;/* tarery shexum e tekum*/
+}
+
+/* guyner 0 (spitak) - 255(sev)
+   color: #f00;
+   color: rgb(255,0,0); /* xorhurde trvum
+   color: rgba(255,0,0,1);
+   color: rgba(65,133,219,1);
+   color: rgba(61,131,221,0.808);
+   color: peru;
+ */
