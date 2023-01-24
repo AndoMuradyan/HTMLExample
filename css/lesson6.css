@@ -1,0 +1,28 @@
+.parent {
+  /*display: grid;*/
+  /*grid-template-columns: repeat(4,1fr);*/
+  display: flex;
+}
+
+.child {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  margin: 10px 20px 30px 40px;
+  /*margin-top: 50px; karoxenq grel nayev margin: 50px 50px 50px 50px */
+  /*margin-left: 50px; karoxenq grel nayev margin: 50px 50px 50px 50px*/
+  /*margin-right: 50px; karoxenq grel nayev margin: 50px 50px 50px 50px*/
+  /*margin-bottom: 50px; karoxenq grel nayev margin: 50px 50px 50px 50px*/
+}
+*{
+  margin: 0;
+  padding: 0;
+
+}
+p{
+  margin: 10px 0;
+}
+div{
+  padding: 20px;
+}
