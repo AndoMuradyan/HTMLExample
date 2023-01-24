@@ -1,0 +1,31 @@
+.someDiv {
+  /*background: red;*/
+  background: url('https://assets.vogue.in/photos/5d7224d50ce95e0008696c55/1:1/w_1000,h_1000,c_limit/Joker.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}
+
+.myDiv {
+  width: 100%;
+  height: 400px;
+  background: url('https://images.unsplash.com/photo-1542044896530-05d85be9b11a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3JzYXl8ZW58MHx8MHx8&w=1000&q=80');
+  background-attachment: fixed;  /* scroll ,fixed,local,inherit */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.super{
+  width: 300px;
+  height: 300px;
+  border: 2px solid blueviolet;
+  background: url("/img/photo-1542044896530-05d85be9b11a.jpg");
+  border-radius: 20px;
+  /*border-top: 2px solid red;*/
+  /*border-right: 2px solid blue;*/
+  /*border-bottom: 2px solid orange;*/
+  /*border-left:  2px solid red;*/
+}
+
