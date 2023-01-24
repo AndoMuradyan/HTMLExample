@@ -1,0 +1,15 @@
+.someDiv1{
+  width: 500px;
+  height: 500px;
+  background: black;
+  padding: 10px;
+  overflow: hidden;
+  overflow-x: hidden;/* x - horizonakan*/
+  overflow-y: hidden;/* y - uxahayac*/
+  overflow: scroll;
+}
+.somDiv2{
+  width: 1200px;
+  height: 1200px;
+  background: red;
+}
