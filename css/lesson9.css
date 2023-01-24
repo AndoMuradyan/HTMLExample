@@ -1,0 +1,19 @@
+.someClass {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  /*transition: 1s ease;*/
+  /*transition: 1s ease-in;*/
+  /*transition: 1s ease-in-out;*/
+  /*transition: 1s linear;*/
+  transition: 0.7s cubic-bezier(.1, .67, .1, .35);
+}
+
+.someClass:hover {
+  background: pink;
+  transform: scale(1.1); /* scale,scaleX,scaleY */
+  transform:translate(100px) ;/* translate,translateX,translateY */
+  transform: rotate(360deg);
+
+}
+
