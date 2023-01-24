@@ -1,0 +1,71 @@
+.google{
+  color: rgb(0,174,255);
+}
+.google:hover{
+  color: green;
+}
+p{
+  color: blue;
+}
+/*p:hover{*/
+/*  color: black;*/
+/*}*/
+.google:focus{
+  color: blueviolet;
+}
+.parent{
+  color: red;
+  font-size: 30px;
+  font-family: Arial;
+}
+.someTex:nth-child(3){
+  color: blue;
+  font-family: cursive;
+  font-weight: bold;
+}
+.someTex:first-child{
+  color: gray;
+}
+.someTex:last-child{
+  color: darkgoldenrod;
+}
+.patmutyun{
+  color: #5d5d5d;
+  font-size: 20px;
+  font-family: monospace;
+}
+.patmutyun:first-letter{
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
+.patmutyun::first-line{
+  background: #ccc;
+}
+.ba{
+  color: blueviolet;
+  font-size: 40px;
+  font-family: cursive;
+}.ba:before{
+  color: red;
+  content: 'Hello ';
+ }
+ .ba:after{
+   content: 'Armenia';
+   color: orange;
+ }
+ form input[name="name"]{
+   background: red;
+ }
+form input[name="lastName"]{
+   background: blue;
+ }
+form input[type="email"]{
+   background: orange;
+ }
+.indent{
+  text-indent: 30px;
+  word-spacing: 10px;
+  letter-spacing: 20px;
+}
+
