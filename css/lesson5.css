@@ -1,0 +1,22 @@
+.some_div{
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+.some_div_child{
+  background: red;
+  width: 100%; /*vh,vw*/
+  height: 100%; /*vh,vw*/
+}
+p{
+  display: inline; /* display: block; display:inline; display:inline-block; display:none;*/
+}
+#a1{
+  background: green;
+}
+#a2{
+  background: blue;
+}
+span{
+  display: block;
+}
