@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text5 {
+  max-width: 800px;
+}
+
+.text5 > .text_cover {
+  float: left;
+  margin: 10px;
+}
+
+.text5 > .text_cover > img {
+  width: 100%;
+}
+.clear{
+  clear: both;
+}
+
+@media screen and (max-width: 655px) {
+  .text5 > .text_cover {
+    margin-right: 0px;
+  }
+}
+#some5{
+  font-weight: bold;
+  margin-top: 10px;
+}
