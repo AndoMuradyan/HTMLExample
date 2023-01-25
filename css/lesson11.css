@@ -1,0 +1,16 @@
+.someDiv3 {
+  min-width: 500px;
+  min-height: 500px;
+  background: #000;
+  color: #fff;
+}
+
+/*
+    width:
+    max-width: չի մեծանում մեր կողմից գրված արժեքի չափից ,բայց կփոքրանա
+    min-width: չի փոքրանա մեր կողմից գրված արժեքի չափից ,բայց կմեծանում
+
+    height:
+    max-height:
+    min-height:
+*/
