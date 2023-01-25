@@ -1,0 +1,67 @@
+.someDiv4 {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  font-family: Arial, serif;
+  max-width: 400px;
+}
+
+#some4 {
+  background: blue;
+  color: #fff;
+  max-width: 500px;
+  font-size: 30px;
+  font-family: Serif;
+  padding: 30px;
+}
+
+@media screen and (max-width: 680px) {
+
+  .someDiv4 {
+    background: yellow;
+    max-width: 100%;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  #some4 {
+    background: cyan;
+    color: red;
+    font-family: Arial, serif;
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  .someDiv4 {
+    background: pink;
+    max-width: 300px;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+
+  #some4 {
+    background: #000;
+    color: red;
+    font-family: Arial, serif;
+  }
+
+}
+#test4{
+  display: none;
+  background: brown;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-family: cursive;
+}
+/* erku payman grelu dzevy media i jamanak screeny verabervum e bolor ekrannerin*/
+@media screen  and (min-width: 300px) and (max-width: 600px){
+  #test4{
+    display: block;
+  }
+}
+
+
