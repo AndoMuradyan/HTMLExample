@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*.parent{*/
+/*  width: 500px;*/
+/*  height: 500px;*/
+/*  background: #000;*/
+/*}*/
+/* top right bottom left */
+/*.parent> .child{*/
+/*  position: absolute;*/
+/*  !*right: 0;*!*/
+/*  !*bottom: 0;*!*/
+/*  width: 400px;*/
+/*  height: 400px;*/
+/*  background:red ;*/
+/*}*/
+
+.parent {
+  max-width: 500px;
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin: 10% auto;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.parent > .info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(58, 46, 98, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: 1s;
+}
+
+.parent > .info > h4 {
+  font-size: 30px;
+}
+
+.parent > .info > p {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.parent > .info > button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 15px 60px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.parent > .info > button:hover {
+  background: #fff;
+  color: black;
+}
+
+.parent > .img {
+  width: 100%;
+}
+
+.parent > .img > img {
+  width: 100%;
+}
+
+.parent:hover .info {
+  opacity: 1;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: green;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 9999;
+}
+#some6{
+  padding-top: 120px;
+}
+
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav > ul > li > a:hover {
+  color: red;
+}
+
