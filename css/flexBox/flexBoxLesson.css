@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+
+1.flex(cnoxin) => .parent
+2.display: flex;
+3.flex-direction:tow (default)
+
+x = row
+y = column
+flex-direction: row-reverse;  hakarak hashvark tarsen frum
+
+flex - wrap: wrap,no-wrap,wrap-reverse;
+flex-flow: flex-direction + flex-wrap
+
+wrap = մենք թույլ ենք տալիս տողադարձ
+nowrap = արգելում ենք տողադարձը
+wrap-reverse = թույլ ենք տալիս տողադարձ
+order: - թույլ է տալիս child էլեմենտներին տեղափոխել և փոխել հերթականությունը գրելաձևը .pic:nth-child(1) { order: 1;}
+*/
+.items {
+  /*flex-flow: column wrap;*/
+  /*align-content: center;*/
+  /*justify-content: center;*/
+  /*align-items: center; !* stretch (default) , flex-start, flex-end ,center ,baseline  *!*/
+  display: flex;
+  flex-direction: column; /*flex-flow: */
+  /*flex-wrap: wrap;        !* flex-flow: *!*/
+  margin: 10px auto;
+  max-width: 800px;
+  height: 720px;
+  background: #4b0071;
+}
+
+
+.item {
+  /*flex-basis: 150px;*/
+  /*width: 100px;*/
+  /*height: 200px;*/
+  color: #fff;
+  text-align: center;
+  /*line-height: 100px;*/
+  background: #00aca3;
+
+}
+
+.item:nth-child(1) {
+  flex-basis: 30px;
+  width: 150px;
+  /*align-self: center;*/
+  /*background: #000;*/
+}
+
+.item:nth-child(2) {
+  flex-basis: 10px;
+  width: 250px;
+  /*align-self: stretch;*/
+ /* width: unset;*/
+}
+
+.item:nth-child(3) {
+  flex-basis: 25px;
+  width: 350px;
+  /*align-self: flex-end;*/
+}
+
+.item:nth-child(4) {
+  flex-basis: 10px;
+  width: 450px;
+  /*align-self: flex-start;*/
+}
+
+.child:nth-child(1) {
+  order: 1;
+}
+
+.child:nth-child(2) {
+  order: 2;
+}
+
+.child:nth-child(3) {
+  order: 3;
+}
+
+.child:nth-child(4) {
+  order: 4;
+}
+
+.gallery {
+  display: flex;
+}
+
+.pic {
+  max-width: 200px;
+  min-height: 200px;
+}
+
+.pic > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* texapoxutuy*/
+.pic:nth-child(1) {
+  order: 1
+}
+
+.pic:nth-child(2) {
+  order: 2
+}
+
+.pic:nth-child(3) {
+  order: 3
+}
+
+.pic:nth-child(4) {
+  order: 4
+}
