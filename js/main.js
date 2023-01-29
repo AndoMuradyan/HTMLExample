@@ -173,3 +173,120 @@
 //   i++;
 // }
 
+// Working with switch case operations
+// console.log("For home page press 1");
+// console.log("For contact page press 2");
+// console.log("For menu page press 3");
+// console.log("========================");
+//
+// let myOption = 1;
+// switch (myOption){
+//   case 1:
+//     console.log("Go to Home Page");
+//     break;
+//   case 2:
+//     console.log("Got to Contact Page");
+//     break;
+//   case 3:
+//     console.log("Go to menu Page");
+//     break;
+//   default:
+//     console.log("Wrong Option");
+// }
+
+// Working with Functions
+//say_hello
+// function say_hello() {
+//   console.log("Hello Code Tubes");
+// }
+// say_hello();
+// //say_hello1
+// function say_hello1(name) {
+//   console.log("Hello " + name);
+// }
+// say_hello1("Aram");
+// //say_hello2
+// function say_hello2(name, country) {
+//   console.log("My name is " + name + " and I`m from " + country);
+// }
+// say_hello2("Aram", "Armenia");
+// // addNumbers
+// function addNumbers(numberOne, numberTwo) {
+//   return numberOne + numberTwo
+// }
+// let total = addNumbers(10, 25);
+// console.log(total);
+// //addNumbersDefault
+// function addNumbersDefault(numberOne=10, numberTwo=25) {
+//   return numberOne + numberTwo
+// }
+// let totalDefault = addNumbersDefault(10);
+// console.log(totalDefault);
+
+// Working With Object
+// class Account {
+//
+//   constructor(firstName, lastName, email, password) {
+//     this.first_name = firstName;
+//     this.last_name = lastName;
+//     this._firstName = firstName;
+//     this._lastName = lastName;
+//     this._email = email;
+//     this._password = password;
+//   }
+//
+//   get fullName() {
+//     return this.first_name + "_" + this.last_name;
+//   }
+//
+//   get firstName() {
+//     return this._firstName;
+//   }
+//
+//   get lastName() {
+//     return this._lastName;
+//   }
+//
+//   get email() {
+//     return this._email;
+//   }
+//
+//   get password() {
+//     return this._password;
+//   }
+//
+//   getInfo() {
+//     console.log(`
+//     First Name is ${this.first_name}\n
+//     Last Name is ${this.last_name}\n
+//     Email is ${this.email}\n
+//
+//     `)
+//   }
+// }
+//
+// let account1 = new Account("Aram", "Avetisyan", "aram@maile.ru", "password1");
+// console.log(account1);
+// console.log(account1.last_name);
+// console.log(account1.fullName);
+// account1.getInfo();
+// let account2 = new Account("John","Smith","john@mail.ru","password2");
+// account2.getInfo();
+
+// Working with try catch blocks
+// let personName ="John";
+// try {
+//   console.log(personName)
+// } catch (e) {
+//   if (e instanceof TypeError) {
+//     console.log("Type Error ...");
+//   } else if (e instanceof ReferenceError) {
+//     console.log("This is a Reference Error......");
+//   } else {
+//     console.log(e);
+//   }
+// } finally {
+//   console.log("execute this part");
+// }
+// console.log("Continue .....")
+
