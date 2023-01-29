@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media</title>
+  <link rel="stylesheet" href="/css/socialMedia/socialMedia.css">
+
+</head>
+<body>
+<nav>
+  <h2>
+    <span class="login-btn">Login</span> |
+    <span>Register</span> |
+    <span id="filters-nav">Filters</span> |
+  </h2>
+
+</nav>
+<div id="search-box">
+  <h1 id="h1">Code Tubes Social Media</h1>
+  <input id="search-text" type="text" placeholder="search">
+  <button id="search-button">Search</button>
+</div>
+<div id="user-box">
+
+</div>
+<div id="filters">
+  <h2>Filters</h2>
+  <p>Country</p>
+  <select name="" id="country-filter">
+    <option value="">-------</option>
+    <option value="Armenia">Armenia</option>
+    <option value="USA">USA</option>
+    <option value="Russia">Russia</option>
+  </select>
+  <p>Gender</p>
+  <select name="" id="gender-filter">
+    <option value="">-------</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select> <br><br>
+  <button id="update-filter">Update</button>
+</div>
+<div id="login-box">
+  <h2>Login | <span style="cursor: pointer;float: right" class="login-btn">X</span></h2>
+  <p>Email</p>
+  <input type="text" id="email"><span id="email-message"></span>
+  <p>Password</p>
+  <input type="password"> <br> <br>
+  <button>Login</button>
+</div>
+<script src="/js/social.js"></script>
+</body>
+</html>
